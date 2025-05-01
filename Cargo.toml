@@ -1,0 +1,14 @@
+[package]
+name = "rust-linear-regression"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "rust_linear_regression"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rust-linear-regression"
+path = "src/main.rs"
