@@ -23,3 +23,28 @@ O objetivo deste projeto é fornecer uma implementação eficiente e simples de 
 ---
 
 ## **Estrutura do Projeto**
+
+rust-linear-regression ├── src │ ├── regression │ │ ├── linear.rs # Implementação da regressão linear e métricas │ │ └── mod.rs # Módulo para expor as funções de regressão │ ├── utils │ │ └── mod.rs # Funções auxiliares │ ├── lib.rs # Biblioteca principal │ └── main.rs # Ponto de entrada do programa ├── Cargo.toml # Configuração do projeto ├── Cargo.lock # Gerado automaticamente pelo Cargo └── README.md # Documentação do projeto
+
+---
+
+## **Como Executar**
+
+### **Pré-requisitos**
+- Instale o Rust: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
+
+### **Passos**
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Brunacoelhob/rust-regressao-linear.git
+   cd rust-regressao-linear
+
+2. Compile o projeto:
+cargo build
+
+4. Execute o programa:
+cargo run
+
+4- Execute os testes:
+cargo test
+
